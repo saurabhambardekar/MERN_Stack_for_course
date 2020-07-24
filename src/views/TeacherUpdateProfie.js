@@ -96,7 +96,7 @@ export default class TeacherUpdateProfile extends Component {
         return (
             <div>
                 <form className="col-6 m-5 align-center text-light bg-dark p-3" method="PUT" >
-                    <h3>Student Profile</h3>
+                    <h3>Teacher Profile</h3>
 
                     <div className="form-group">
                         <label>Name</label>
@@ -146,7 +146,7 @@ export default class TeacherUpdateProfile extends Component {
                     <button type="submit" className="btn btn-primary btn-block" onClick={this.profUpdate}>Update Profile</button>
                 </form>
                 <form className="col-6 m-5 align-center text-light bg-dark p-3" method="PUT">
-                    <h3>Student Password Update</h3>
+                    <h3>Teacher Password Update</h3>
 
                     <div className="form-group">
                         <label>Email address</label>
