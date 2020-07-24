@@ -12,6 +12,8 @@ import Registration from "./views/Registration";
 import Coursest from './views/Coursest';
 import AddCourses from './views/AddCourses';
 import RegisteredCourse from './views/RegisteredCourse';
+import StudentUpdateProfile from './views/StudentUpdateProfile';
+import TeacherUpdateProfile from './views/TeacherUpdateProfie';
 function App() {
     return (<Router>
         <div className="App">
@@ -46,6 +48,12 @@ function App() {
                             <li className="nav-item">
                                 <Link className="nav-link text-light" to={"/coursess"}>My Courses(Student)</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className="nav-link text-light" to={"/pstudent"}>My Profile(Student)</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link text-light" to={"/pteacher"}>My Profile(Teacher)</Link>
+                            </li>
                         </ul>
 
                     </div>    
@@ -65,6 +73,8 @@ function App() {
                         <Route path="/coursest" component={Coursest} />
                         <Route path="/addcourses" component={AddCourses} />
                         <Route path="/coursess" component={RegisteredCourse} />
+                        <Route path="/pstudent" component={StudentUpdateProfile} />
+                        <Route path="/pteacher" component={TeacherUpdateProfile} />
                     </Switch>
                 </div>
             </div>
@@ -74,5 +84,8 @@ function App() {
 }
 
 export default App;
+
+
+
 
 
