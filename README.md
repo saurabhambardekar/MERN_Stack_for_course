@@ -1,3 +1,15 @@
+
+# MERN STACK COURSE APPLICATION
+## Technologies Used
+1. Node JS
+2. Express JS
+3. React JS
+4. MongoDB Atlas
+5. JWT Authentication
+6. BcryptJS
+7. Bootstrap
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +78,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+"# MERN_Stack_for_course" 
