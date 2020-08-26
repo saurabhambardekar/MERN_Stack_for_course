@@ -1,4 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://saurabh:saurabh@cluster0.fbi2r.mongodb.net/task?retryWrites=true&w=majority",
-  "jwtSecret": "myApp"
+  "mongoURI": "mongodb-connection-string",
+  "jwtSecret": "secret-key"
 }
